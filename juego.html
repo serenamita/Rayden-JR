@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mini combate | Succesorrs</title>
+<meta name="description" content="Succesorrs: archivo de Rayden Poolito Jr. (Hellmouth / Gagpool)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow:wght@400;600&family=Press+Start+2P&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<main><span class="tag">HELLMOUTH VS. VILLANOS</span><h1 class="title glitch" data-t="MINI COMBATE">MINI COMBATE</h1>
+<div class="panel dark"><p><b>Mueve</b> con flechas o WASD, <b>ataca</b> con ESPACIO (o el botón ⚔). Reúne <b>30 chocolates</b> antes de que se acabe tu barra de vida. Los villanos no dejarán de llegar, y se pondrán más difíciles.</p>
+<div class="game-stage"><canvas id="cv" width="640" height="400" aria-label="Mini combate de Hellmouth"></canvas>
+<div class="game-screen" id="game-screen"><h2 id="screen-title">¡A por el chocolate!</h2><p id="screen-message">Recoge 30 chocolates y esquiva a los villanos. Si la vida llega a cero, se acaba el juego.</p><button class="btn" id="go">¡Empezar!</button></div></div>
+<div id="res" class="bang" style="text-align:center;font-size:1.7rem;color:#ffb000;min-height:3.4rem"></div>
+<div class="game-controls" id="game-controls" hidden>
+<div style="display:grid;grid-template-columns:repeat(3,52px);gap:4px"><span></span><button class="btn" data-k="arrowup" style="padding:.2rem">▲</button><span></span><button class="btn" data-k="arrowleft" style="padding:.2rem">◀</button><button class="btn" data-k="arrowdown" style="padding:.2rem">▼</button><button class="btn" data-k="arrowright" style="padding:.2rem">▶</button></div>
+<button class="btn" data-k="atk">Atacar</button></div></div>
+<div class="pager"><a class="btn" href="playlist.html">◀ Playlist</a><span></span></div></main>
+<script src="js/juego.js"></script><script src="js/main.js"></script></body></html>

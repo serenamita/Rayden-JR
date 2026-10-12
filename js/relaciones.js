@@ -1,0 +1,9 @@
+// ===== RELACIONES (edita aquí a las cuatro personas) =====
+// ★ En "foto" escribe la ruta de cada imagen, por ejemplo "img/persona1.jpg".
+// Reemplaza los textos de nombre, tipo e info; puedes agregar más objetos si los necesitas.
+window.RELACIONES=[
+  {nombre:"Jay Parker",tipo:"EL AMOR DE MI VIDA MUAK",foto:"img/poolimages/parker.jpg",info:[{t:"Descripción",d:"Me encanta este chico. Es guapo, está buenísimo y tiene esa hermosa cara que me dan ganas de comerme a besos cada vez que tengo la oportunidad. No sé qué demonios me hizo, pero lo quiero cerquita, pegadito a mí todo el tiempo; es mi persona favorita y definitivamente nadie tiene que saber eso: estoy bastante enamorado de él. Él me encanta. Ojalá pudiera invitarlo esta y cada noche a mi habitación. Es mío, ¡ÉL ES MÍO, APÁRTENSE, PERRAS!"}]},
+  {nombre:"Chessie Hardy",tipo:"THIS GIRL CRAZY",foto:"img/poolimages/maydelin.jpg",info:[{t:"Descripción",d:"«Oye, me la debes». Esas son probablemente las palabras que más escucho de Chessie. Siempre hay alguna deuda pendiente o una discusión. Lo chistoso es que, cuando las cosas se ponen feas, terminamos salvándonos el pellejo mutuamente. No sé si somos amigos, socios o dos idiotas, pero ya ni me acuerdo si me debe algo."}]},
+  {nombre:"Leif Viego",tipo:"Mala influencia con patas",foto:"img/poolimages/hijo de hela.jpg",info:[{t:"Descripción",d:"No nos llevamos mal; simplemente me dan ganas de golpearlo cada vez que abre la boca. Es una mala influencia con patas y, para mi desgracia, parece tener interés en mí. ¡Pobre, le romperé el corazón! ¿Somos amigos? No. ¿Podríamos serlo? Lamentablemente, sí, supongo."}]},
+  {nombre:"Vesper Maximoff",tipo:"OSH ELLA ES UNA BOMBA",foto:"img/poolimages/Nataliee.jpg",info:[{t:"Descripción",d:"Nuestra amistad es bastante original. Si ignoras las veces que intentamos partirnos la cara antes de sentarnos a comer, es una amistad sana. Ella es todo un amor, JAJAJA."}]}
+];
